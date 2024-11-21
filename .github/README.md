@@ -10,10 +10,10 @@ This script is not intended to deceive anyone or manipulate GitHub’s activity 
 ## What It Looks Like
 
 Before:  
-![Before](images/before.png)  
+![Before](before.png)
 
 After:  
-![After](images/after.png)
+![After](after.png)
 
 ---
 
