@@ -3,18 +3,19 @@ This script helps you instantly generate a beautiful GitHub Contributions Graph 
 ⚠️ Disclaimer
 This script is not intended to deceive anyone or manipulate GitHub’s activity graphs. GitHub's contributions graph doesn't reflect your true professional skills, and basing your skills solely on it is misleading. Use this tool for educational purposes only to learn about GitHub actions, automation, and contributions.
 
-What It Looks Like
+#What It Looks Like
+
 Before:
 ![Before](before.png)
 After:
 ![After](after.png)
 
-How It Works
+#How It Works
 The script works by creating a new GitHub repository and generating daily commits for the past year (up to 20 commits per day). Each commit adds some changes to a text file, simulating contributions over time. Once the commits are generated, it links the repository to your remote GitHub repository and pushes the changes.
 
 The main goal of this script is to help you understand how to automate contributions and work with GitHub's commit and push workflows.
 
-How to Use
+#How to Use
 Create a New GitHub Repository
 
 Create a new, empty GitHub repository.
@@ -31,7 +32,7 @@ python contribute.py --repository=git@github.com:user/repo.git
 Wait for Activity Update
 It may take a few minutes for GitHub to reindex your activity and display the updated contributions on your profile.
 
-Customizations
+#Customizations
 You can customize how often the script commits and how many commits per day to generate:
 
 Adjust Frequency and Max Commits
